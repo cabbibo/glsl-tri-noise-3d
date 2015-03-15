@@ -17,6 +17,7 @@
     "browserify": "^9.0.3",
     "gl-context": "^0.1.1",
     "gl-shader": "^4.0.0",
+    "glsl-hsv2rgb": "^1.0.0",
     "glslify": "^2.0.0",
     "wzrd": "^1.2.1"
   },
