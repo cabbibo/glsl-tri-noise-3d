@@ -1,0 +1,28 @@
+{
+  "name": "glsl-tri-noise-3d",
+  "version": "1.0.0",
+  "description": "trinoise for glsl",
+  "main": "triNoise3D.glsl",
+  "scripts": {
+    "start": "wzrd demo/index.js"
+  },
+  "keywords": [
+    "glsl",
+    "ecosystem:stackgl",
+    "noise"
+  ],
+  "author": "stormoid",
+  "devDependencies": {
+    "a-big-triangle": "^1.0.0",
+    "browserify": "^9.0.3",
+    "gl-context": "^0.1.1",
+    "gl-shader": "^4.0.0",
+    "glslify": "^2.0.0",
+    "wzrd": "^1.2.1"
+  },
+  "browserify": {
+    "transform": [
+      "glslify"
+    ]
+  }
+}
